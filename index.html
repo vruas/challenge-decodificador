@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <h1><img src="images/cyber.png" class="banner" alt="Mensagens criptografadas"></h1>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <textarea class="input-texto" cols="30" rows="10" placeholder="digite seu texto"></textarea>
+                <h6 class="aviso"> <img src="images/advice.png" class="aviso-imagem">Apenas letras minúsculas e sem acento</h6>
+								 <button class="botoes" onclick="btnEncriptar()">Criptografar</button>
+                  <button class="botoes" onclick="btnDesencriptar()">Descriptografar</button>	          
+            </section>
+    
+            <section>
+                <textarea class="mensagem" cols="30" rows="10"></textarea>
+                <div>
+                    <button class="botoes" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+<footer class="info">
+				<h6>Desenvolvido por Vitor Ruas - 2022</h6>
+        <a href="https://github.com/vruas" target="_blank"><img src="images/github.png" class="contato"></a>
+        <a href="https://www.linkedin.com/in/vitorsruas/" target="_blank"><img src="images/linkedin.png" class="contato"></a>
+        
+</footer>
+</html>    

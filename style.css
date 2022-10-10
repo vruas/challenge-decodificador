@@ -1,0 +1,78 @@
+* {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+}
+
+body {
+    background-color: #86f874;
+}
+
+.banner {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#86f874, 80%, #258217);
+}
+
+.input-texto {
+    color: #faebd7;
+    background-color: #409932;
+    border-color: #0b3c03;
+    border-radius: 0.5em;
+    border-width: 2px;
+}
+
+.mensagem {
+    color: #faebd7;
+    background-color: #409932;
+    border-color: #0b3c03;
+    border-radius: 0.5em;
+    border-width: 2px;
+}
+
+.input-texto::placeholder {
+    color: #faebd7;
+    opacity: 0.5;
+}
+
+.aviso {
+    color: #faebd7;
+    font-size: 20px;
+}
+
+.botoes{
+    padding: 8px;
+    font-size: 24px;
+    color: #faebd7;
+    background-color:#409932;
+    border-width: 2px;
+    border-radius: 0.5em;   
+}
+
+.botoes:hover {
+    background-color: #0b3c03;
+    transition: 0s;
+}
+
+.info {
+    color: #faebd7;
+    width: 100%;
+    height: 80px;
+    font-size: 16px;
+    background-color: #258217;
+    text-align: center;
+    
+       
+}
+
+.contato {
+    margin-top: 10px;
+    width: 40px;
+}
